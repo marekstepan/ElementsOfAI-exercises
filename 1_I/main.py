@@ -9,3 +9,25 @@ plt.figure(figsize=(3,5))
 plt.axis('off')
 plt.imshow(x, cmap='Set3')
 plt.show()
+
+
+def greet(name):
+    print("Welcome " + name + "!")
+
+
+def main2():
+    name = "to Building AI"
+    greet(name)
+
+
+main2()
+
+
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+
+print(factorial(6))  # this should print 720
